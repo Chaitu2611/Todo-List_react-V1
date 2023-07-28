@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Todo-List_react-V1/static/js/main.a786a67e.js",
+    "static/js/787.26cafda1.chunk.js": "/Todo-List_react-V1/static/js/787.26cafda1.chunk.js",
+    "index.html": "/Todo-List_react-V1/index.html",
+    "main.a786a67e.js.map": "/Todo-List_react-V1/static/js/main.a786a67e.js.map",
+    "787.26cafda1.chunk.js.map": "/Todo-List_react-V1/static/js/787.26cafda1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a786a67e.js"
+  ]
+}
