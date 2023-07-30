@@ -1,9 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Todoitems from "./TodoItem";
 
 function App() {
   const [itemName, setitemName] = useState("");
   const [items, setitems] = useState([]);
+
+  useEffect(() => {
+    const items = JSON.parse(localStorage.getItem("items"));
+    if (items) {
+      setitems(items);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("items", JSON.stringify(items));
+  }, [items]);
 
   function handle(event) {
     const name = event.target.value;
